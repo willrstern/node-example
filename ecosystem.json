@@ -20,7 +20,7 @@
   deploy : {
     production : {
       user : "deploy",
-      host : "45.55.89.146",
+      host : ["45.55.89.146", "45.55.81.220"],
       ref  : "origin/master",
       repo : "https://github.com/willrstern/node-example.git",
       path : "~/node-example",
