@@ -19,5 +19,8 @@
   "homepage": "https://github.com/willrstern/node-example#readme",
   "dependencies": {
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "pm2": "^2.0.19"
   }
 }
