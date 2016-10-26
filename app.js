@@ -1,5 +1,5 @@
 require("express")()
   .get("/", (req, res, next) => {
-    res.send("hello world")
+    res.send("hey world")
   })
   .listen(3000)
